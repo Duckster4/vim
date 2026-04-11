@@ -13,6 +13,7 @@ set relativenumber
 " set number
 
 set mouse=
+colorscheme desert
 
 " Define the path for the Coc extension
 let g:coc_global_extensions = ['coc-pyright']
@@ -34,4 +35,3 @@ nmap <silent> <leader>rn <Plug>(coc-rename)
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
-
