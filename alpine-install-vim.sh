@@ -12,7 +12,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # Copy the .vimrc file to the home directory
-cp /path/to/your/repo/.vimrc ~/.vimrc
+cp .vimrc ~/.vimrc
 
 # Install the plugins specified in .vimrc
 vim +PlugInstall +qa
