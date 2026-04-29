@@ -2,7 +2,7 @@
 
 # Update and install necessary packages
 apk update
-apk add vim python3 nodejs npm
+apk add vim python3 nodejs npm curl
 
 # Install Yarn globally
 npm install -g yarn
