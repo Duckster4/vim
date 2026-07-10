@@ -1,5 +1,9 @@
 #!/bin/sh
 
+if [ "$(id -u)" -ne 0 ]; then
+   exit 1
+fi
+
 # Update and install necessary packages
 apk update
 apk add vim python3 nodejs npm curl
